@@ -2,7 +2,7 @@ name: 인스타 자동 업로드
 
 on:
   schedule:
-    - cron: '0 0 * * *'
+    - cron: '30 10 * * 1,2,3,4,5'
   workflow_dispatch:
 
 jobs:
